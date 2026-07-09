@@ -36,3 +36,14 @@ These files were derived from the official TSE data and prepared exclusively for
 Spatial interpolation was performed using the Inverse Distance Weighting (IDW) method to produce continuous electoral surfaces.
 
 As a complementary analysis, global and local spatial autocorrelation were evaluated using Moran's I and Local Indicators of Spatial Association (LISA) based on first-order Queen contiguity weights with 999 Monte Carlo permutations.
+
+## Spatial Statistics
+
+Additional spatial statistics are available in the `spatial_statistics/` directory, including:
+
+- Global Moran's I results;
+- Local Indicators of Spatial Association (LISA);
+- Moran scatterplots;
+- LISA cluster maps for all gubernatorial candidates analyzed.
+
+These analyses complement the IDW interpolation presented in the main notebook.
